@@ -3,8 +3,5 @@ aiohttp>=3.10
 aiosqlite>=0.20
 python-dotenv>=1.0
 tzdata>=2024.1
-
-# AI provayderlar — AI_PROVIDER=claude bo'lsa anthropic, gemini bo'lsa google-genai kerak.
-# Ikkalasini ham o'rnatib qo'ysangiz, .env da AI_PROVIDER ni istalgan payt almashtira olasiz.
 anthropic>=0.40
 google-genai>=0.3
