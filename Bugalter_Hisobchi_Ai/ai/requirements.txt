@@ -1,0 +1,15 @@
+aiogram>=3.15
+aiohttp>=3.10
+aiosqlite>=0.20
+python-dotenv>=1.0
+apscheduler>=3.11  # 3.11+ — zoneinfo (Asia/Tashkent) ni to'g'ridan-to'g'ri qo'llab-quvvatlaydi
+
+# Eksport va grafik
+matplotlib>=3.9
+openpyxl>=3.1
+reportlab>=4.2
+
+# AI provayderlar — AI_PROVIDER=claude bo'lsa anthropic, gemini bo'lsa google-genai kerak.
+# Ikkalasini ham o'rnatib qo'ysangiz, .env da AI_PROVIDER ni istalgan payt almashtira olasiz.
+anthropic>=0.40
+google-genai>=0.3
